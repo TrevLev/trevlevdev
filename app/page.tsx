@@ -1,13 +1,12 @@
-import Base64 from "../components/Base64"
+import Base64TickerTape from "@components/Base64TickerTape"
 
 const Home = () => {
   return (
     <main>
       <h1>Trevor Levinson Development</h1>
-      <Base64 />
-      <Base64 />
-      <Base64 />
-      <Base64 />
+      <div>
+        <Base64TickerTape />
+      </div>
     </main>
   )
 }
